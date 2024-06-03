@@ -1,0 +1,20 @@
+{
+  "name": "mu04-adventure-game",
+  "version": "1.0.0",
+  "description": "A text based adventure game built with typescript, using chalk for styling and inquirer for user prompts.",
+  "main": "app.js",
+  "type": "module",
+  "bin": "app.js",
+  "scripts": {
+    "test": "tsc && node app.js"
+  },
+  "author": "Muhammad Ubaid",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.22"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
